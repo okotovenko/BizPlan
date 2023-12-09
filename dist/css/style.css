@@ -1357,7 +1357,7 @@ input:focus {
   line-height: normal;
 }
 
-.recommend__container {
+.recommend__container p {
   border-radius: 15px;
   background: linear-gradient(103deg, #28B2F0 28.51%, #41EEAB 80.11%);
   display: -webkit-box;
@@ -1369,13 +1369,13 @@ input:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.recommend__container p {
+  padding-left: 10px;
+  padding-right: 10px;
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
   color: #ffffff;
+  text-align: center;
 }
 
 .know__container h2 {
@@ -1484,6 +1484,11 @@ input:focus {
 
 .investors__slider {
   height: 100%;
+}
+
+.investors__slider .swiper-button-next,
+.investors__slider .swiper-button-prev {
+  color: #41EEAB;
 }
 
 .investors__wrapper {
@@ -3113,8 +3118,12 @@ button.swiper-pagination-bullet {
     padding-bottom: 7.875rem;
   }
 
-  .recommend__container {
-    padding: 1.4375rem;
+  .recommend__container p {
+    padding-top: 1.4375rem;
+  }
+
+  .recommend__container p {
+    padding-bottom: 1.4375rem;
   }
 
   .recommend__container p {
@@ -3596,8 +3605,12 @@ button.swiper-pagination-bullet {
     padding-bottom: 1.25rem;
   }
 
-  .recommend__container {
-    padding: 0.625rem;
+  .recommend__container p {
+    padding-top: 0.625rem;
+  }
+
+  .recommend__container p {
+    padding-bottom: 0.625rem;
   }
 
   .recommend__container p {
@@ -4720,15 +4733,27 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (padding: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem )) {
-    .recommend__container {
-      padding: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem );
+@supports (padding-top: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem )) {
+    .recommend__container p {
+      padding-top: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem );
     }
 }
 
-@supports not (padding: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem )) {
-    .recommend__container {
-      padding: calc(0.625rem + 0.8125 * (100vw - 20rem) / 73.75);
+@supports not (padding-top: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem )) {
+    .recommend__container p {
+      padding-top: calc(0.625rem + 0.8125 * (100vw - 20rem) / 73.75);
+    }
+}
+
+@supports (padding-bottom: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem )) {
+    .recommend__container p {
+      padding-bottom: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem );
+    }
+}
+
+@supports not (padding-bottom: clamp( 0.625rem , 0.4046610169rem  +  1.1016949153vw , 1.4375rem )) {
+    .recommend__container p {
+      padding-bottom: calc(0.625rem + 0.8125 * (100vw - 20rem) / 73.75);
     }
 }
 
