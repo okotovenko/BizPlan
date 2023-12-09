@@ -3362,8 +3362,8 @@ button.swiper-pagination-bullet {
     width: 49.375rem;
   }
 
-  .investors__left picture source,
-  .investors__left picture img {
+  .investors__left > picture source,
+  .investors__left > picture img {
     width: 49.375rem;
   }
 
@@ -3832,8 +3832,8 @@ button.swiper-pagination-bullet {
     max-width: 800px;
   }
 
-  .investors__left picture source,
-  .investors__left picture img {
+  .investors__left > picture source,
+  .investors__left > picture img {
     width: 100%;
     max-width: 800px;
   }
@@ -5154,15 +5154,15 @@ button.swiper-pagination-bullet {
 }
 
 @supports (width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem )) {
-    .investors__left picture source,
-    .investors__left picture img {
+    .investors__left > picture source,
+    .investors__left > picture img {
       width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem );
     }
 }
 
 @supports not (width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem )) {
-    .investors__left picture source,
-    .investors__left picture img {
+    .investors__left > picture source,
+    .investors__left > picture img {
       width: calc(37.5rem + 11.875 * (100vw - 62rem) / 58);
     }
 }
