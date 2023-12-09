@@ -3001,6 +3001,10 @@ button.swiper-pagination-bullet {
     gap: 1.5625rem;
   }
 
+  .main__center ul li {
+    font-size: 1.25rem;
+  }
+
   .main__price {
     font-size: 3.75rem;
   }
@@ -3045,6 +3049,10 @@ button.swiper-pagination-bullet {
     gap: 1.5625rem;
   }
 
+  .person__content ul li {
+    font-size: 1.25rem;
+  }
+
   .person__insta {
     gap: 1.875rem;
   }
@@ -3071,6 +3079,10 @@ button.swiper-pagination-bullet {
 
   .meetengs__item ul {
     gap: 1.5625rem;
+  }
+
+  .meetengs__item ul li {
+    font-size: 1.25rem;
   }
 
   .meetengs__top {
@@ -3170,10 +3182,6 @@ button.swiper-pagination-bullet {
   }
 
   .faq__container h2 {
-    font-size: 2.5rem;
-  }
-
-  .faq__container h2 {
     font-size: 2.125rem;
   }
 
@@ -3187,10 +3195,6 @@ button.swiper-pagination-bullet {
 
   .question {
     margin-bottom: 12.25rem;
-  }
-
-  .question__container h2 {
-    font-size: 2.5rem;
   }
 
   .question__container h2 {
@@ -3345,7 +3349,13 @@ button.swiper-pagination-bullet {
             column-gap: 5.9375rem;
   }
 
-  .investors__left > img {
+  .investors__left > img,
+  .investors__left > picture {
+    width: 49.375rem;
+  }
+
+  .investors__left picture source,
+  .investors__left picture img {
     width: 49.375rem;
   }
 
@@ -3474,6 +3484,10 @@ button.swiper-pagination-bullet {
     gap: 0.625rem;
   }
 
+  .main__center ul li {
+    font-size: 1rem;
+  }
+
   .main__price {
     font-size: 2.5rem;
   }
@@ -3507,7 +3521,7 @@ button.swiper-pagination-bullet {
   }
 
   .person__content h4 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
   }
 
   .person__content h4 {
@@ -3516,6 +3530,10 @@ button.swiper-pagination-bullet {
 
   .person__content ul {
     gap: 0.625rem;
+  }
+
+  .person__content ul li {
+    font-size: 1rem;
   }
 
   .person__insta {
@@ -3544,6 +3562,10 @@ button.swiper-pagination-bullet {
 
   .meetengs__item ul {
     gap: 0.625rem;
+  }
+
+  .meetengs__item ul li {
+    font-size: 1rem;
   }
 
   .meetengs__top {
@@ -3631,7 +3653,7 @@ button.swiper-pagination-bullet {
   }
 
   .investors__text p {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .investors__price p {
@@ -3643,11 +3665,7 @@ button.swiper-pagination-bullet {
   }
 
   .faq__container h2 {
-    font-size: 1.5rem;
-  }
-
-  .faq__container h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .faq__container h2 {
@@ -3663,11 +3681,7 @@ button.swiper-pagination-bullet {
   }
 
   .question__container h2 {
-    font-size: 1.5rem;
-  }
-
-  .question__container h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .question__container h2 {
@@ -3801,7 +3815,14 @@ button.swiper-pagination-bullet {
             flex-direction: column-reverse;
   }
 
-  .investors__left > img {
+  .investors__left > img,
+  .investors__left > picture {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .investors__left picture source,
+  .investors__left picture img {
     width: 100%;
     max-width: 800px;
   }
@@ -3837,6 +3858,8 @@ button.swiper-pagination-bullet {
     right: 0;
     left: 0;
     margin: 0 auto;
+    -webkit-transform: translate3d(0px, 0px, 0px) !important;
+            transform: translate3d(0px, 0px, 0px) !important;
   }
 }
 
@@ -3854,7 +3877,7 @@ button.swiper-pagination-bullet {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
-    margin-top: 30px;
+    margin-top: 40px;
     padding-right: 20px;
   }
 
@@ -3898,7 +3921,7 @@ button.swiper-pagination-bullet {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 1.875rem;
+    gap: 2.5rem;
   }
 
   .menu__list li {
@@ -3916,6 +3939,13 @@ button.swiper-pagination-bullet {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
+  }
+
+  .footer__left {
+    max-width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .footer__content {
@@ -3956,6 +3986,10 @@ button.swiper-pagination-bullet {
 
   .footer__body-2 {
     width: 100%;
+  }
+
+  .main .main-decor-02 {
+    left: 0;
   }
 
   .main {
@@ -4016,6 +4050,7 @@ button.swiper-pagination-bullet {
 
   .person__box {
     padding: 1.25rem;
+    min-height: 700px;
   }
 
   .meetengs__items :nth-child(5).meetengs__item {
@@ -4096,6 +4131,7 @@ button.swiper-pagination-bullet {
   .main__bottom {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
+    row-gap: 0.9375rem;
   }
 
   .main__item {
@@ -4121,6 +4157,10 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 26.25em) {
+  .person__box {
+    min-height: 650px;
+  }
+
   .person__img {
     width: 250px;
     height: 290px;
@@ -4344,6 +4384,18 @@ button.swiper-pagination-bullet {
     }
 }
 
+@supports (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
+    .main__center ul li {
+      font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem );
+    }
+}
+
+@supports not (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
+    .main__center ul li {
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 73.75);
+    }
+}
+
 @supports (font-size: clamp( 2.5rem , 2.1610169492rem  +  1.6949152542vw , 3.75rem )) {
     .main__price {
       font-size: clamp( 2.5rem , 2.1610169492rem  +  1.6949152542vw , 3.75rem );
@@ -4440,15 +4492,15 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (font-size: clamp( 1.125rem , 1.0233050847rem  +  0.5084745763vw , 1.5rem )) {
+@supports (font-size: clamp( 1.25rem , 1.1822033898rem  +  0.3389830508vw , 1.5rem )) {
     .person__content h4 {
-      font-size: clamp( 1.125rem , 1.0233050847rem  +  0.5084745763vw , 1.5rem );
+      font-size: clamp( 1.25rem , 1.1822033898rem  +  0.3389830508vw , 1.5rem );
     }
 }
 
-@supports not (font-size: clamp( 1.125rem , 1.0233050847rem  +  0.5084745763vw , 1.5rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.1822033898rem  +  0.3389830508vw , 1.5rem )) {
     .person__content h4 {
-      font-size: calc(1.125rem + 0.375 * (100vw - 20rem) / 73.75);
+      font-size: calc(1.25rem + 0.25 * (100vw - 20rem) / 73.75);
     }
 }
 
@@ -4473,6 +4525,18 @@ button.swiper-pagination-bullet {
 @supports not (gap: clamp( 0.625rem , 0.3707627119rem  +  1.2711864407vw , 1.5625rem )) {
     .person__content ul {
       gap: calc(0.625rem + 0.9375 * (100vw - 20rem) / 73.75);
+    }
+}
+
+@supports (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
+    .person__content ul li {
+      font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem );
+    }
+}
+
+@supports not (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
+    .person__content ul li {
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 73.75);
     }
 }
 
@@ -4557,6 +4621,18 @@ button.swiper-pagination-bullet {
 @supports not (gap: clamp( 0.625rem , 0.3707627119rem  +  1.2711864407vw , 1.5625rem )) {
     .meetengs__item ul {
       gap: calc(0.625rem + 0.9375 * (100vw - 20rem) / 73.75);
+    }
+}
+
+@supports (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
+    .meetengs__item ul li {
+      font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem );
+    }
+}
+
+@supports not (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
+    .meetengs__item ul li {
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 73.75);
     }
 }
 
@@ -4812,15 +4888,15 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (font-size: clamp( 1.125rem , 1.0911016949rem  +  0.1694915254vw , 1.25rem )) {
+@supports (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
     .investors__text p {
-      font-size: clamp( 1.125rem , 1.0911016949rem  +  0.1694915254vw , 1.25rem );
+      font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem );
     }
 }
 
-@supports not (font-size: clamp( 1.125rem , 1.0911016949rem  +  0.1694915254vw , 1.25rem )) {
+@supports not (font-size: clamp( 1rem , 0.9322033898rem  +  0.3389830508vw , 1.25rem )) {
     .investors__text p {
-      font-size: calc(1.125rem + 0.125 * (100vw - 20rem) / 73.75);
+      font-size: calc(1rem + 0.25 * (100vw - 20rem) / 73.75);
     }
 }
 
@@ -4848,27 +4924,15 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (font-size: clamp( 1.5rem , 1.2288135593rem  +  1.3559322034vw , 2.5rem )) {
+@supports (font-size: clamp( 1.25rem , 1.0127118644rem  +  1.186440678vw , 2.125rem )) {
     .faq__container h2 {
-      font-size: clamp( 1.5rem , 1.2288135593rem  +  1.3559322034vw , 2.5rem );
+      font-size: clamp( 1.25rem , 1.0127118644rem  +  1.186440678vw , 2.125rem );
     }
 }
 
-@supports not (font-size: clamp( 1.5rem , 1.2288135593rem  +  1.3559322034vw , 2.5rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.0127118644rem  +  1.186440678vw , 2.125rem )) {
     .faq__container h2 {
-      font-size: calc(1.5rem + 1 * (100vw - 20rem) / 73.75);
-    }
-}
-
-@supports (font-size: clamp( 1.5rem , 1.3305084746rem  +  0.8474576271vw , 2.125rem )) {
-    .faq__container h2 {
-      font-size: clamp( 1.5rem , 1.3305084746rem  +  0.8474576271vw , 2.125rem );
-    }
-}
-
-@supports not (font-size: clamp( 1.5rem , 1.3305084746rem  +  0.8474576271vw , 2.125rem )) {
-    .faq__container h2 {
-      font-size: calc(1.5rem + 0.625 * (100vw - 20rem) / 73.75);
+      font-size: calc(1.25rem + 0.875 * (100vw - 20rem) / 73.75);
     }
 }
 
@@ -4908,27 +4972,15 @@ button.swiper-pagination-bullet {
     }
 }
 
-@supports (font-size: clamp( 1.5rem , 1.2288135593rem  +  1.3559322034vw , 2.5rem )) {
+@supports (font-size: clamp( 1.25rem , 1.0127118644rem  +  1.186440678vw , 2.125rem )) {
     .question__container h2 {
-      font-size: clamp( 1.5rem , 1.2288135593rem  +  1.3559322034vw , 2.5rem );
+      font-size: clamp( 1.25rem , 1.0127118644rem  +  1.186440678vw , 2.125rem );
     }
 }
 
-@supports not (font-size: clamp( 1.5rem , 1.2288135593rem  +  1.3559322034vw , 2.5rem )) {
+@supports not (font-size: clamp( 1.25rem , 1.0127118644rem  +  1.186440678vw , 2.125rem )) {
     .question__container h2 {
-      font-size: calc(1.5rem + 1 * (100vw - 20rem) / 73.75);
-    }
-}
-
-@supports (font-size: clamp( 1.5rem , 1.3305084746rem  +  0.8474576271vw , 2.125rem )) {
-    .question__container h2 {
-      font-size: clamp( 1.5rem , 1.3305084746rem  +  0.8474576271vw , 2.125rem );
-    }
-}
-
-@supports not (font-size: clamp( 1.5rem , 1.3305084746rem  +  0.8474576271vw , 2.125rem )) {
-    .question__container h2 {
-      font-size: calc(1.5rem + 0.625 * (100vw - 20rem) / 73.75);
+      font-size: calc(1.25rem + 0.875 * (100vw - 20rem) / 73.75);
     }
 }
 
@@ -5067,13 +5119,29 @@ button.swiper-pagination-bullet {
 }
 
 @supports (width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem )) {
-    .investors__left > img {
+    .investors__left > img,
+    .investors__left > picture {
       width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem );
     }
 }
 
 @supports not (width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem )) {
-    .investors__left > img {
+    .investors__left > img,
+    .investors__left > picture {
+      width: calc(37.5rem + 11.875 * (100vw - 62rem) / 58);
+    }
+}
+
+@supports (width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem )) {
+    .investors__left picture source,
+    .investors__left picture img {
+      width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem );
+    }
+}
+
+@supports not (width: clamp( 37.5rem , 24.8060344828rem  +  20.474137931vw , 49.375rem )) {
+    .investors__left picture source,
+    .investors__left picture img {
       width: calc(37.5rem + 11.875 * (100vw - 62rem) / 58);
     }
 }
